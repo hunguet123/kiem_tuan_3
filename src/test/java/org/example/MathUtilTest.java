@@ -6,7 +6,7 @@ public class MathUtilTest {
     MathUtil util = new MathUtil();
 
 
-    // test với bảng quyết định
+    // test với bảng quyết định test1 -> test16
     @Test
     void test1(){
         assertEquals(util.calculateInterest(1000.0, 0.05, 1, 1), 1050.00);
@@ -87,7 +87,7 @@ public class MathUtilTest {
         assertEquals(util.calculateInterest(-10000.0, -0.06, -5, -12), 0);
     }
 
-    // test với phân hoạch tương đương
+    // test với phân hoạch tương đương test 17 -> test21
 
     @Test
     void test17(){
